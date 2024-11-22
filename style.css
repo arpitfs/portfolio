@@ -30,6 +30,16 @@ html {
   border-bottom: 0.3rem solid #333;
   text-shadow: 0.2rem 0.2rem 0.5rem #555;
 }
+
+.section-heading-about {
+  font-size: 5rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-bottom: 5rem;
+  border-bottom: 0.3rem solid #333;
+  text-shadow: 0.2rem 0.2rem 0.5rem #555;
+}
 /* End of Reset and Common Styles */
 
 /* Section 1 */
@@ -487,4 +497,92 @@ html {
     width: 40rem;
   }
 }
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+  padding: 20px;
+}
+
+/* Style for the tech section */
+.tech-section {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.tech-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #060813;
+  margin-bottom: 30px;
+}
+
+/* Container for tech categories */
+.tech-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* 3 tiles per row */
+  gap: 20px;
+}
+
+/* Each category styling */
+.tech-category {
+  background: linear-gradient(145deg, #fbc2eb, #a6c1ee);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 3.1rem;
+}
+
+.tech-category:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.category-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.tech-items {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 1024px) {
+  .tech-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 tiles per row on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .tech-container {
+      grid-template-columns: 1fr; /* 1 tile per row on small screens */
+  }
+  .tech-section {
+      padding: 20px;
+  }
+  .tech-heading {
+      font-size: 2rem;
+  }
+}
+
+
 /* End of Responsive */
