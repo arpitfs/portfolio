@@ -40,6 +40,16 @@ html {
   border-bottom: 0.3rem solid #333;
   text-shadow: 0.2rem 0.2rem 0.5rem #555;
 }
+
+.section-heading-cert {
+  font-size: 5rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-bottom: 5rem;
+  border-bottom: 0.3rem solid #333;
+  text-shadow: 0.2rem 0.2rem 0.5rem #555;
+}
 /* End of Reset and Common Styles */
 
 /* Section 1 */
@@ -251,7 +261,7 @@ html {
 }
 
 .projects-wrapper {
-  width: 80%;
+  width: 100%;
   flex-wrap: wrap;
 }
 
@@ -451,6 +461,10 @@ html {
 
   .section-2-heading {
     margin-bottom: 10rem;
+  }
+
+  .section-3-heading{
+    margin-bottom: 1rem;
   }
 
   .progress-bar {
