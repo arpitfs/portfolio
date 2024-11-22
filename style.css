@@ -45,6 +45,12 @@ html {
   flex-direction: column;
 }
 
+/* @media (max-width: 768px) {
+  .section-1 {
+      max-width: 100%;  /* Ensure the image never exceeds the container's width */
+      height: auto;     /* Keep the aspect ratio intact */
+  }
+} */
 .section-1-heading {
   font-size: 6rem;
   font-weight: 700;
