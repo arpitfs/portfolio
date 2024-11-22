@@ -41,6 +41,16 @@ html {
   text-shadow: 0.2rem 0.2rem 0.5rem #555;
 }
 
+.section-heading-port {
+  font-size: 5rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 0.3rem solid #333;
+  text-shadow: 0.2rem 0.2rem 0.5rem #555;
+}
+
 .section-heading-cert {
   font-size: 5rem;
   color: #333;
@@ -172,7 +182,7 @@ html {
 .section-2 {
   width: 100%;
   height: 100%;
-  padding: 15rem 0 10rem 0;
+  padding: 10rem 0 10rem 0;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -351,7 +361,7 @@ html {
   color: #fff;
   box-shadow: none;
   border-color: #fff;
-  margin-bottom: 5rem;
+  margin-bottom: 35rem;
 }
 
 .contact-form {
