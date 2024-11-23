@@ -125,7 +125,7 @@ html {
 
 /* Navbar */
 .navbar {
-  width: 100%;
+  width: 97.3%;
   height: 4rem;
   /* background-color: #00FFFF; */
   background-color: #9B4DFF;
@@ -274,8 +274,6 @@ html {
   width: 100%;
   flex-wrap: wrap;
 }
-
-
 
 .project {
   display: flex;
@@ -461,7 +459,7 @@ html {
   }
 
   .section-4 {
-    height: 80vh;
+    height: 120vh;
   }
 }
 
@@ -472,6 +470,9 @@ html {
 
   .progress-bar {
     width: 50rem;
+  }
+  .navbar{
+    width:90%;
   }
 }
 
